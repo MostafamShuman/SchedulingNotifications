@@ -39,8 +39,8 @@ class NotficationManager: NSObject {
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         // Config Content
         let content = UNMutableNotificationContent()
-        content.title = "Late wake up call"
-        content.body = "The early bird catches the worm, but the second mouse gets the cheese."
+        content.title = " wake up 🔉"
+        content.body = "a chameleon's tongue longer than its body. 🐸👅"
         content.categoryIdentifier = "alarm"
         content.sound = UNNotificationSound.default()
         

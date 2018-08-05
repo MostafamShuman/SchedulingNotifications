@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scheduling Notifications" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10y-b5-wam">
-                                <rect key="frame" x="34" y="54" width="307" height="24"/>
+                                <rect key="frame" x="34" y="475" width="307" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,13 +38,13 @@
                         <constraints>
                             <constraint firstItem="64d-2b-y6v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5nT-hx-Jna"/>
                             <constraint firstAttribute="trailing" secondItem="10y-b5-wam" secondAttribute="trailing" constant="34" id="6jA-Ij-32l"/>
+                            <constraint firstItem="10y-b5-wam" firstAttribute="top" secondItem="uc4-kZ-BRX" secondAttribute="bottom" constant="8" id="DgE-u8-o1w"/>
                             <constraint firstItem="uc4-kZ-BRX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gbh-k4-VqB"/>
                             <constraint firstAttribute="trailing" secondItem="64d-2b-y6v" secondAttribute="trailing" id="Haa-xE-dT1"/>
                             <constraint firstItem="10y-b5-wam" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="ImI-qP-QrS"/>
                             <constraint firstItem="64d-2b-y6v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dND-ju-Uve"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uc4-kZ-BRX" secondAttribute="bottom" constant="200" id="dru-1y-7ES"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="64d-2b-y6v" secondAttribute="bottom" id="hT1-Sn-t8v"/>
-                            <constraint firstItem="10y-b5-wam" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="vDZ-Vp-EHr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
