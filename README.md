@@ -1,5 +1,4 @@
 # SchedulingNotificationsiOS
-send local notifications at a specific time in iOS
 in order to send Scheduling notifications in your app, you need  to .. 
 - import  notifications framework:  by import UserNotifications
 
